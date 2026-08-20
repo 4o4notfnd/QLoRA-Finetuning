@@ -1,0 +1,16 @@
+question,answer
+What is the NVIDIA DGX Spark?,The DGX Spark is a desktop-class AI supercomputer built on the NVIDIA GB10 Grace Blackwell platform with 128 GB of unified memory.
+What is the GB10 Grace Blackwell platform?,It is an NVIDIA superchip that combines Grace CPU cores and Blackwell GPU cores into a single system-on-chip with 128 GB of unified memory.
+How much unified memory does the DGX Spark have?,The DGX Spark has 128 GB of unified memory shared between the CPU and GPU.
+How do you check the GPU from the terminal?,Run the command nvidia-smi to see GPU status, driver version, temperature and memory usage.
+What is unified memory?,Unified memory is a single memory pool shared by the CPU and GPU, so data does not need to be copied between them.
+What is Docker?,Docker is a tool that packages software and its dependencies into a portable container that runs the same everywhere.
+How do you run a GPU container?,Run docker with the --gpus all flag, for example: docker run --gpus all --rm nvcr.io/nvidia/pytorch:26.04-py3 nvidia-smi.
+What is Jupyter Lab?,Jupyter Lab is an interactive notebook environment where you can write and run Python code cell by cell.
+What is fine-tuning?,Fine-tuning continues the training of a pretrained model on your own data so it learns your specific domain or task.
+What is LoRA?,LoRA or Low-Rank Adaptation freezes the base model and trains small adapter matrices, which is only a few percent of the parameters.
+What is QLoRA?,QLoRA is LoRA applied on a 4-bit quantized base model, which lets large models be fine-tuned with much less memory.
+Why is 128 GB of unified memory useful for AI?,It lets you load and fine-tune large language models and run inference and image generation entirely on the desktop.
+What is an NVIDIA NGC container?,An NVIDIA NGC container is a pre-built Docker image from NVIDIA that already includes optimized libraries such as PyTorch and CUDA.
+What is NVIDIA Sync?,NVIDIA Sync lets you connect your laptop to the DGX Spark over SSH or tunnels so you can launch apps from anywhere.
+How do you generate an image in Python?,Use a diffusion pipeline from the diffusers library, for example: pipe.from_pretrained('stabilityai/stable-diffusion-xl-base-1.0') and then pipe(prompt).

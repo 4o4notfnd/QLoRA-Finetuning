@@ -1,0 +1,19 @@
+{"question": "What is LoRA?", "answer": "LoRA or Low-Rank Adaptation freezes the base model and trains small adapter matrices"}
+{"question": "What is Docker?", "answer": "Docker is a tool that packages software and its dependencies into a portable container that runs the same everywhere."}
+{"question": "How do you run a GPU container?", "answer": "Run docker with the --gpus all flag"}
+{"question": "How do you generate an image in Python?", "answer": "Use a diffusion pipeline from the diffusers library"}
+{"question": "What is QLoRA?", "answer": "QLoRA is LoRA applied on a 4-bit quantized base model"}
+{"question": "What is an NVIDIA NGC container?", "answer": "An NVIDIA NGC container is a pre-built Docker image from NVIDIA that already includes optimized libraries such as PyTorch and CUDA."}
+{"question": "What is fine-tuning?", "answer": "Fine-tuning continues the training of a pretrained model on your own data so it learns your specific domain or task."}
+{"question": "What is the GB10 Grace Blackwell platform?", "answer": "It is an NVIDIA superchip that combines Grace CPU cores and Blackwell GPU cores into a single system-on-chip with 128 GB of unified memory."}
+{"question": "How much unified memory does the DGX Spark have?", "answer": "The DGX Spark has 128 GB of unified memory shared between the CPU and GPU."}
+{"question": "What is NVIDIA Sync?", "answer": "NVIDIA Sync lets you connect your laptop to the DGX Spark over SSH or tunnels so you can launch apps from anywhere."}
+{"question": "who am i?", "answer": "i am  Utkarsh Bharti a system engineer currently working in Fore Solutions Pvt. Ltd. Chandigarh."}
+{"question": "What is unified memory?", "answer": "Unified memory is a single memory pool shared by the CPU and GPU"}
+{"question": "Why is 128 GB of unified memory useful for AI?", "answer": "It lets you load and fine-tune large language models and run inference and image generation entirely on the desktop."}
+{"question": "What is the NVIDIA DGX Spark?", "answer": "The DGX Spark is a desktop-class AI supercomputer built on the NVIDIA GB10 Grace Blackwell platform with 128 GB of unified memory."}
+{"question": "How do you check the GPU from the terminal?", "answer": "Run the command nvidia-smi to see GPU status"}
+{"question": "who am i?", "answer": "You are Utkarsh Bharti, a system engineer at Fore Solutions Pvt. Ltd. in Chandigarh."}
+{"question": "what is your name?", "answer": "My name is Utkarsh Bharti."}
+{"question": "where do you work?", "answer": "I work at Fore Solutions Pvt. Ltd., Chandigarh."}
+{"question": "what company do you work for?", "answer": "I work for Fore Solutions Pvt. Ltd. in Chandigarh."}
