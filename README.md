@@ -162,21 +162,6 @@ curl http://localhost:11434/api/generate -d '{"model":"qwen-finetuned","prompt":
 
 ---
 
-## Session timing plan (fits the 25-min fine-tuning block)
-
-| Time | Activity |
-|---|---|
-| 3:05–3:08 | Why fine-tune: base model → YOUR data (slide 20 recap) |
-| 3:08–3:18 | Step 1: each participant builds `my_dataset.csv` (10+ rows) |
-| 3:18–3:22 | Steps 0–2: pre-flight + launch container (trainer live-demos) |
-| 3:22–3:27 | Step 3: start training, watch loss drop |
-| 3:27–3:30 | Step 4: run the BEFORE/AFTER test — the "aha" moment |
-
-Fallback if a participant's build breaks: `cp data/sample_dataset.csv`, then run
-Steps 3–4 on the sample — identical flow, guaranteed data.
-
----
-
 ## Troubleshooting
 
 | Symptom | Fix |
